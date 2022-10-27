@@ -96,16 +96,6 @@ return (
 
       ))}
       <button className="ui button" data-inverted="" data-tooltip={JSON.stringify(cart,null,"\t")} data-position="top left" onClick={display}>submit</button>
-      {/* <div>
-        {showForm && (cart.map((prod, index) => {
-          return (
-            <div key={prod.index}>
-              <p>{prod.index}</p>
-              <p>{prod.title}</p> 
-            </div>
-          );
-        }))}
-      </div> */}
     </div>
   );
 }
