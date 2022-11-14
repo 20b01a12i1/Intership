@@ -42,3 +42,108 @@ outline: none;
 position: absolute;
 color: grey;
 }
+
+.containerMain{
+    overflow: auto;
+}
+.container{
+    display: flex;
+    overflow: auto;
+}
+.content1{
+    display: grid;
+}
+.content2{
+    display: flex;
+    width:100%;
+}
+#content3{
+    display: grid;
+}
+.content4{
+    display: flex;
+}
+.data{
+    width:100%;
+}
+.self{
+    width:80%
+}
+.com{
+    width:100%;
+}
+.carddata{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 10px;
+    width: 100%;
+    padding: 30px;
+}
+.cardcontent{
+    display: inline-block;
+    margin-top: 10px;
+}
+.hoursandminutes{
+    grid-template-columns: auto auto auto 1fr auto;
+    column-gap: 20px;
+}
+.buttonclass{
+    grid-template-columns: auto auto auto 1fr auto;
+    width: 100%;
+}
+.buttonclass1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+    width: 80%;
+}
+
+/* .card{
+    width: 100%;
+    padding: 20px;
+} */
+.cart{
+    width: 100%;
+    padding-left: 10px;
+}
+@media screen and (max-width: 1200px){
+    .container{
+        display: grid;
+
+    }
+    .container.leftpart{
+        width: 100%;
+    }
+    .content2{
+        display: grid;
+        width: 100%;
+        padding:30px
+    }
+    .data{
+        width: 100%;
+    }
+    .cart{
+        width:100%;
+        padding-left: 0px;
+    }
+    #content3{
+        display: grid;
+        width: 100%;
+        min-height: 100vh;
+        padding: 30px;
+    }
+    .content4{
+        display: grid;
+        width: 100%;
+    }
+    .self{
+        width: 100%;
+    }
+    .cont{
+        padding: 30px;
+    }
+    .prompt{
+        width:280px
+    }
+}
