@@ -125,14 +125,14 @@ return (
     <div>
       {data.data?.map((item,index) => (
           <div className="ui cards">    
-              {/* <Card key={index} items={item}  addItem={handleadd} handleClick={handleClick} handlechange={handleChange}/> */}
+              <Card key={index} items={item}  addItem={handleadd} handleClick={handleClick} handlechange={handleChange}/>
                 
-                <Card2 key={index} items={item}  addItem={handleadd} handleClick={handleClick} handlechange={handleChange}/>
+                {/* <Card2 key={index} items={item}  addItem={handleadd} handleClick={handleClick} handlechange={handleChange}/> */}
           </div>
       ))}
-      <div style={{marginTop:"3%"}}>
+      {/* <div style={{marginTop:"3%"}}>
       <button className="ui secondary button" data-tooltip={JSON.stringify(cart,null,"\t")} data-position="top left" onClick={display}>submit</button>
-      </div>
+      </div> */}
       
     </div>
   );
